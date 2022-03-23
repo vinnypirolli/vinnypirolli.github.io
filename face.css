@@ -1,0 +1,32 @@
+
+
+
+}
+.eyes{
+    width: 20%;
+    height: 80px;
+    background-color: rgb(122, 95, 4);
+    border-radius: 350px;
+    position: relative;
+    top: 140px;
+    left: 70px;
+
+
+
+
+	
+}
+
+.triangle-down {
+	width: 50px;
+	height: 50px;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 75px solid white;
+	background-color: black;
+	transform: rotate(180deg)scale(5,4)translate(10px);
+	position: absolute;
+	z-index: auto;
+	top: 200px; left: 500px;
+
+}

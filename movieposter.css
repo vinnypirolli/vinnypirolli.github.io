@@ -1,0 +1,133 @@
+body {
+    background-color: yellow;
+  animation-name: example;
+  animation-duration: 5s;
+}
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: orange;}
+  to {background-color: yellow;}
+
+  }
+
+.hover-rotate  {
+  overflow: hidden;
+  margin-left: 1000px;
+  margin-top: 320px;
+  min-width: 250px;
+  max-width: 250px;
+  position: absolute;
+
+
+ }
+
+.hover-rotate img {
+  transition: all 5s;
+  box-sizing: border-box;
+  max-width: 100%;
+     z-index:-1;
+    
+}
+
+.hover-rotate:hover img {
+  transform:  rotate(730deg);
+}
+
+.hover-rotate2 {
+  overflow: hidden;
+  margin: 450px;
+  min-width: 300px;
+  max-width: 300px;
+  width: 150%;
+position: absolute;
+   z-index:-1;
+ }
+
+.hover-rotate2 img {
+  transition: all 2s;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.hover-rotate2:hover img {
+  transform:  rotate(720deg);
+}
+.hover-rotate3 {
+  overflow: hidden;
+  margin-left: 1097px;
+  margin-top: -5px;
+  min-width: 245px;
+  max-width: 200px;
+  width: 150%;
+position: absolute;
+
+ }
+
+.hover-rotate3 img {
+  transition: all 5s;
+  box-sizing: border-box;
+  max-width: 100%;
+
+}
+
+.hover-rotate3:hover img {
+  transform:  rotate(720deg);
+}
+
+h1 {
+    font-size: 250px;
+    margin-top: 50px;
+    font-family: Impact, fantasy;
+
+
+    
+}
+
+.microphone img{
+    min-width: 100px;
+  max-width: 100px;
+  position: absolute;
+  margin-left: 825px;
+  margin-top: 450px;
+  opacity: 1;
+  transition: all 0.3s;
+
+}
+
+.microphone:hover img {
+    transform: scale(2) rotate(5deg);
+
+
+}
+.guitar img{
+    min-width: 125px;
+  max-width: 125px;
+  position: absolute;
+   margin-left: 700px;
+   margin-top: 300px;
+   transition: all 1s;
+}
+.guitar:hover img {
+    transform: scale(1.5) rotate(12deg);
+}
+.lemonade img{
+    min-width: 400px;
+  max-width: 400px;
+    opacity: 0.5;
+    margin-left: 1100px;
+    position: absolute;
+     z-index:-1;
+}
+.drums img{
+    min-width: 100;
+  max-width: 100;
+    margin-left: 875px;
+    margin-top: 300px;
+    position: absolute;
+    transition: all 1s;
+   }
+
+.drums:hover img {
+    transform: scale(1.2) rotate(370deg);
+}
+
