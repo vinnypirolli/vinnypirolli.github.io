@@ -2,11 +2,15 @@ body {
     background-color: yellow;
   animation-name: example;
   animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-fill-mode:  forwards;
 }
 @keyframes example {
   from {background-color: red;}
   to {background-color: orange;}
   to {background-color: yellow;}
+
+
 
   }
 
