@@ -1,0 +1,17 @@
+#big {
+    font-size: 750px;
+    position: absolute;
+    margin-left:200px;
+}
+#small {
+    font-size:50px;
+    position: absolute;
+    margin-left:820px;
+    margin-top:185px;
+}
+.line {
+    height: 500px;
+    position: absolute;
+    margin-left:750px;
+    top: 0;
+  }
